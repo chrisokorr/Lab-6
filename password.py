@@ -10,6 +10,17 @@ def encoder(password):
         new_password += str(new_num)
     return new_password
 
+def decode:
+    new_password = ''
+    for i in password:
+        num = int(i)
+        if num >= 7:
+            new_num = num - 7
+        else:
+            new_num = num + 3
+        new_password += str(new_num)
+    return new_password
+
 def main()
     while True:
         print("Menu\n"
