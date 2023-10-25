@@ -10,7 +10,7 @@ def encoder(password):
         new_password += str(new_num)
     return new_password
 
-if __name__ == '__main__':
+def main()
     while True:
         print("Menu\n"
               "-------------\n"
@@ -27,3 +27,6 @@ if __name__ == '__main__':
             print(f"The encoded password is {new_password}, the original password is {password_to_encode}.")
         elif response == 3:
             quit()
+
+if __name__ == '__main__':
+    main()
